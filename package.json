@@ -1,0 +1,22 @@
+{
+  "name": "plato-cave",
+  "version": "1.0.0",
+  "description": "insight into the source.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangbuchao/Plato-Cave.git"
+  },
+  "author": "huangbuchao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huangbuchao/Plato-Cave/issues"
+  },
+  "homepage": "https://github.com/huangbuchao/Plato-Cave#readme",
+  "devDependencies": {
+    "vuepress": "^1.2.0"
+  }
+}
