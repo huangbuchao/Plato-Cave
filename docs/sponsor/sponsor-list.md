@@ -1,3 +1,11 @@
 # sponsor list(test)
 
-[KevinWon](https://www.zhihu.com/people/kevin-wong-91/activities) - <span style="">￥58</span>
+[zhuangsan](/) - <span style="">￥10</span>
+
+[zhuangsan](/) - <span style="">￥10</span>
+
+[zhuangsan](/) - <span style="">￥10</span>
+
+[zhuangsan](/) - <span style="">￥10</span>
+
+[zhuangsan](/) - <span style="">￥10</span>
