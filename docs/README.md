@@ -20,3 +20,5 @@ footer: MIT Licensed | Copyright © 2018-present HuangBuchao
 ---
 
 [sponsor author->](/sponsor/sponsor)
+
+![](https://github.com/huangbuchao/Plato-Cave/workflows/Build%20Status/badge.svg)
