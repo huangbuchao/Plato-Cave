@@ -12,6 +12,6 @@ git config user.email huangbuchao@gmail.com
 git add -A
 git commit -m 'deploy'
 
-git push -f https://huangbuchao:${GITHUB_TOKEN}@github.com/huangbuchao/Plato-Cave.git master:gh-pages
+git push -f https://${GITHUB_ACTOR}:${secrets.GITHUB_TOKEN}@github.com/huangbuchao/Plato-Cave.git master:gh-pages
 
 cd -
