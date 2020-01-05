@@ -25,6 +25,8 @@ jobs:
         npm install
         npm run build --if-present
         npm run deploy
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
       env:
         super_secret: ${{ secrets.BLOG_DEPLOY_TOKEN }}
         CI: true
