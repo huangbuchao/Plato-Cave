@@ -2,7 +2,7 @@
 home: true
 heroImage: /cave.jpg
 actionText: start →
-actionLink: /zh/vue2/
+actionLink: /vue2/
 features:
 - title: Vue2
   details: Vue.js is an open-source MVVM JavaScript framework for building user interfaces and single-page applications. Designed by Evan You.
@@ -20,5 +20,3 @@ footer: MIT Licensed | Copyright © 2018-present HuangBuchao
 ---
 
 [sponsor author->](/sponsor/sponsor)
-
-![](https://github.com/huangbuchao/Plato-Cave/workflows/Build%20Status/badge.svg)
