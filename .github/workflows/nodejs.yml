@@ -6,28 +6,16 @@ on:
       - master
 
 jobs:
-  build:
-
+  build-and-deploy:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [8.x, 10.x, 12.x]
-
     steps:
-    - uses: actions/checkout@v1
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: npm install, build, deploy
-      run: |
-        npm install
-        npm run build --if-present
-        npm run deploy
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Build and Deploy
+      uses: JamesIves/github-pages-deploy-action@master
       env:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        super_secret: ${{ secrets.BLOG_DEPLOY_TOKEN }}
-        CI: true
+        ACCESS_TOKEN: ${{ secrets.BLOG_DEPLOY_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: docs/.vuepress/dist
+        BUILD_SCRIPT: npm install && npm run build
