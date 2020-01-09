@@ -7,7 +7,8 @@ module.exports = {
       children: [
         ['', 'contents'],
         'compiler',
-        'runtime'
+        'runtime',
+        'observer'
       ]
     }
   ],
